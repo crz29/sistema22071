@@ -10,7 +10,7 @@ from flaskext.mysql import MySQL
 app= Flask(__name__)
 #2.Defino acá "app" (aplicacion del tipo Flask)
 #esto se ejecuta con app.run
-
+#aaa
 #4.escribimos estas 6 lineas, siempre son las mismas en MySql.
 mysql = MySQL()
 app.config['MYSQL_DATABASE_HOST']='localhost' #porque está en nuestra PC
